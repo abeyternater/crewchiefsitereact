@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Lato:wght@300&family=Roboto&display=swap');
+
+
+.left-column{
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    align-items: center;
+    padding: 4rem;  }
+  
+  
+  .header h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-style: italic;
+
+  }
+  
+  .header p{
+    color: white;
+    text-transform: uppercase bold;
+    font-size: 1.5em;
+  
+  }
+  
+  .buttonleft{
+    font-size: 1.2rem;
+    box-shadow: 4rem;
+    animation: glowing 1400ms infinite;
+    border-radius: 18px;
+    padding:0.5rem;
+    margin: 1rem;
+    transition: letter-spacing 0.1s;
+    letter-spacing: 0.2rem;
+
+  }
+
+  .buttonleft:hover{
+    letter-spacing: 0.4rem
+  }
+
+  .buttonleft:active{
+    letter-spacing: 0.4rem
+  }
+  
+  .buttonleft a{
+    text-decoration: none;
+    color: black;  
+  }
+  
+  @keyframes glowing {
+    0% {
+      background-color: white;
+      box-shadow: 0 0 5px white;
+    }
+    50% {
+      background-color: white;
+      box-shadow: 0 0 15px white;
+    }
+    100% {
+      background-color: white;
+      box-shadow: 0 0 5px white;
+    }
+  }
+
+  @media only screen and (max-width:1160px){
+
+
+    .header{
+      padding-top: 5rem;
+      width: 100%;
+      align-items: center;
+      font-size: small;
+      padding-left: 0rem;
+    }
+    .button:active{
+      transition: all 0.1s ease-in;
+    }
+
+    .button:active{
+      letter-spacing: 0.2rem;
+    }
+
+    
+  }
+  @media only screen and (max-width:830px){
+.buttonleft{
+  margin-top: 30rem;
+}
+  }
+
+  @media screen and (max-width:428px){
+.header{
+  width: 100%;
+  padding: 3rem;
+  align-items: center;
+  margin-top: 5rem;
+}
+.header h1 {
+  font-size: 3rem;
+}
+
+.buttonleft{
+  margin-top: 24rem;
+}
+
+}

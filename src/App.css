@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Lato:wght@300&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background-image: url("/src/images/bgimage0.JPG");
+  background-size: cover;
+  height: 100vh;
+  background-position: 0% 14%;
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (max-width:1225px){
+  .App{
+  background-position:20% ;
+  }
+}
+
+@media only screen and (max-width:830px){
+  .App{
+    background-position: 42% 14%;
+  }
+}
+
+@media only screen and (max-width:428px){
+  .App{
+    background-position: 43%;
+  }
+
+
+}
