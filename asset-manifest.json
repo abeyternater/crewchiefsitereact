@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/abeyternater.github.io/crewchiefsitereact/static/css/main.c10ec294.css",
+    "main.js": "/abeyternater.github.io/crewchiefsitereact/static/js/main.f7a923d1.js",
+    "static/js/787.9be28859.chunk.js": "/abeyternater.github.io/crewchiefsitereact/static/js/787.9be28859.chunk.js",
+    "static/media/bgimage0.JPG": "/abeyternater.github.io/crewchiefsitereact/static/media/bgimage0.f275c3b3d3820b2e3f9e.JPG",
+    "static/media/bgimage1.JPG": "/abeyternater.github.io/crewchiefsitereact/static/media/bgimage1.6c1726444e691ebd0a61.JPG",
+    "static/media/bgimage2.WEBP": "/abeyternater.github.io/crewchiefsitereact/static/media/bgimage2.f19e6838120500da0439.WEBP",
+    "index.html": "/abeyternater.github.io/crewchiefsitereact/index.html",
+    "main.c10ec294.css.map": "/abeyternater.github.io/crewchiefsitereact/static/css/main.c10ec294.css.map",
+    "main.f7a923d1.js.map": "/abeyternater.github.io/crewchiefsitereact/static/js/main.f7a923d1.js.map",
+    "787.9be28859.chunk.js.map": "/abeyternater.github.io/crewchiefsitereact/static/js/787.9be28859.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c10ec294.css",
+    "static/js/main.f7a923d1.js"
+  ]
+}
