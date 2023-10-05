@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Contactstyles.css';
-import Fade from 'react-reveal/Fade';
 
 
 function Contact(){
@@ -22,20 +21,18 @@ function Contact(){
   return (
   <form ref={form} onSubmit={sendEmail}>
 
-<div class="container">
-  <Fade left>
-		<div class="contact-box">
-			<div class="left">
+<div className="container">
+		<div className="contact-box">
+			<div className="left">
         <h2>Contact Me</h2>
-      <input name="user_name" type="text" class="field" placeholder="Your Name" />
-      <input name="user_email" type="text" class="field" placeholder="Your Email" />
-      <input name="phone_number" type="text" class="field" placeholder="Phone" />
-      <textarea name="message" placeholder="Message" class="field"></textarea>
+      <input name="user_name" type="text" className="field" placeholder="Your Name" />
+      <input name="user_email" type="text" className="field" placeholder="Your Email" />
+      <input name="phone_number" type="text" className="field" placeholder="Phone" />
+      <textarea name="message" placeholder="Message" className="field"></textarea>
 
-      <button class="btn">Send</button></div>
+      <button className="btn">Send</button></div>
 
 		</div>
-    </Fade>
 	</div>
 
     </form>
